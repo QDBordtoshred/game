@@ -2,8 +2,8 @@ title: Quinn Bireley
 description: "August 2023 to June 2024"
 owner_name: Quinn Bireley
 github_username: QDBordtoshred
-github_repo: "qwerty"
-baseurl: "/qwerty"
+github_repo: "game"
+baseurl: "/game"
 future: true
 remote_theme: jekyll/minima
 minima:
