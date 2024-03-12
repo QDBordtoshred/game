@@ -20,6 +20,5 @@ plugins:
 - jekyll-remote-theme
 header_pages:
   - navigation/blogs.md
-  - qwerty/blogs
 
 
