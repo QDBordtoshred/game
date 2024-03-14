@@ -136,7 +136,7 @@ class GameObject {
         //const otherCenterY = (otherRect.top + otherRect.bottom) / 2;
     
         // Calculate hitbox constants
-        var widthPercentage = 0.7;
+        var widthPercentage = 0.5;
         var heightPercentage = 0.5; 
         if (this.canvas.id === "player" && other.canvas.id === "jumpPlatform") {
             heightPercentage = 0.0;
