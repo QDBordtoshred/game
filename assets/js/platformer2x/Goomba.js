@@ -9,7 +9,7 @@ export class Goomba extends Character {
 
         //Unused but must be Defined
         this.name = name;
-        this.y = yPercentage;
+        this.y = yPercentage + 5;
 
         //Initial Position of Goomba
         this.x = xPercentage * GameEnv.innerWidth;
