@@ -288,7 +288,7 @@ export class Player extends Character {
         // Checks if collision touchpoint id is either "goomba" or "flyingGoomba"
         if (this.collisionData.touchPoints.other.id === "goomba" || this.collisionData.touchPoints.other.id === "flyingGoomba") {
             if (GameEnv.invincible === false) {
-                GameEnv.goombaInvincible = true;
+                GameEnvN.goombaInvincible = true;
                 // Collision with the left side of the Enemy
                 if (this.collisionData.touchPoints.other.left && !this.collisionData.touchPoints.other.bottom && !this.collisionData.touchPoints.other.top && GameEnv.invincible === false && this.timer === false) {
                     setTimeout(this.goombaCollision.bind(this), 50);
